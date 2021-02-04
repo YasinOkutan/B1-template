@@ -150,6 +150,15 @@ article h2.open-forever{
   margin: 0 auto;
 }
 
+.product-2{
+  display: flex;
+}
+
+.product-text p{
+  text-align: left;
+  margin: 0px; 
+}
+
 button{
   width: 100%;
   margin-top: 1em;
