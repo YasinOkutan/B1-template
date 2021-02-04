@@ -180,6 +180,9 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .description{
@@ -216,6 +219,11 @@ footer{
 
   .hidden-on-sm{
     display: none;
+  }
+
+  .sidy-by-side{
+    display: flex;
+    justify-content: center;
   }
 }
 
